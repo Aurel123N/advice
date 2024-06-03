@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(218, 23%, 16%);
+    font-family: "Manrope";
+    font-weight: 800;
+    height: 100vh;
+    flex-direction: column;
+}
+
+body content {
+    width: 40%;
+    background-color: hsl(217, 19%, 24%);
+    border-radius: 1em;
+    text-align: center;
+}
+
+h3 {
+    font-size: 10px;
+    margin: 0%;
+    letter-spacing: 2px;
+    color: hsl(150, 100%, 66%);
+    padding: 20px;
+}
+
+p {
+    margin: 0%;
+    font-size: 28px;
+    color: hsl(193, 38%, 86%);
+}
+button{
+    background-color: hsl(150, 100%, 66%)   ;
+    border-radius: 100%;
+    aspect-ratio: 1/1;
+    padding: 15px;
+    border: 0; 
+}
+button svg{
+    width: 100%;
+    
+}
+
+.positionnement{
+    position:relative;
+    
+}
